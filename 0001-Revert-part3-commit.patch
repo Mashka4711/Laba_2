@@ -1,0 +1,23 @@
+From 21cf33d0e90916f37ec0eb713da9eb3245ec23d5 Mon Sep 17 00:00:00 2001
+From: Mashka4711 <mashka4711@ramber.ru>
+Date: Thu, 11 Oct 2018 12:13:14 +0300
+Subject: [PATCH] Revert "part3 commit"
+
+This reverts commit 34038cea3a8bf6f9a83ac284b5af698001ad2d4b.
+---
+ test_4.txt | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+diff --git a/test_4.txt b/test_4.txt
+index 6fa14ba..fc3921b 100644
+--- a/test_4.txt
++++ b/test_4.txt
+@@ -1,2 +1 @@
+-hey (part 2)
+-part3
+\ No newline at end of file
++hey (part 2)
+\ No newline at end of file
+-- 
+2.19.0.windows.1
+
